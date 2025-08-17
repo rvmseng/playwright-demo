@@ -4,6 +4,3 @@ npx playwright show-trace trace.zip
 
 # code gen command
 mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen https://demo.automationtesting.in/Frames.html"
-
-
-{\"rooms\":[{\"roomid\":1,\"roomName\":\"303\",\"type\":\"Single\",\"accessible\":true,\"image\":\"/images/room2.jpg\",\"description\":\"Mock Room.\",\"features\":[\"TV\",\"WiFi\",\"Safe\"],\"roomPrice\":100}
