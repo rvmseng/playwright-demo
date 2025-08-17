@@ -1,9 +1,5 @@
 package com.rvm.test.l2.autowait;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
