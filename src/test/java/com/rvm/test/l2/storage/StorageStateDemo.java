@@ -1,4 +1,4 @@
-package com.rvm.test.l2;
+package com.rvm.test.l2.storage;
 
 import java.nio.file.Paths;
 

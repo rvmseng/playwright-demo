@@ -1,4 +1,4 @@
-package com.rvm.test.l2;
+package com.rvm.test.l2.recording;
 
 import java.nio.file.Paths;
 

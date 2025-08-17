@@ -1,4 +1,4 @@
-package com.rvm.test.l2;
+package com.rvm.test.l2.events;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;

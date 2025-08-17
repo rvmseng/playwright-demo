@@ -1,4 +1,4 @@
-package com.rvm.test.l2;
+package com.rvm.test.l2.iframe;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;

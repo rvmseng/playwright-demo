@@ -57,7 +57,7 @@ public class IsolationDemo {
 
 		page.close();
 		context.close();
-
+		
 	}
 
 }

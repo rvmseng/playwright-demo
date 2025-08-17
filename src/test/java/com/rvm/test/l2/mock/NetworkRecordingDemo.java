@@ -1,4 +1,4 @@
-package com.rvm.test.l2;
+package com.rvm.test.l2.mock;
 
 import java.nio.file.Paths;
 import java.util.regex.Pattern;
