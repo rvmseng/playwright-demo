@@ -11,7 +11,6 @@ import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.BrowserType.LaunchOptions;
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.Page.GetByRoleOptions;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.options.AriaRole;
 import com.microsoft.playwright.options.LoadState;
