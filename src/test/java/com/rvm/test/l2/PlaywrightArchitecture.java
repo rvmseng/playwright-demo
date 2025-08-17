@@ -122,7 +122,6 @@ public class PlaywrightArchitecture {
 		// Stop Tracing
 		context.tracing().stop(new Tracing.StopOptions().setPath(Paths.get("trace.zip")));
 		context.close();
-
 	}
 
 }
