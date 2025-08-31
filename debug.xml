@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Soha Test Suite" parallel="methods" thread-count="2">
+
+	<parameter name="cucumber.filter.tags" value="@happy" />
+	
+	<test name="Login Tests">
+		<classes>
+			<class name="com.rvm.runner.RunCucumberTest" />
+		</classes>
+	</test>
+</suite>
