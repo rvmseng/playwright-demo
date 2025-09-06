@@ -32,6 +32,22 @@ public class LoginPage {
 		// صفحه inventory پس از لاگین دارای عنصر با کلاس inventory_list است
 		return page.locator(".inventory_list").isVisible();
 	}
+	
+	public void clickOnLoginButton() {
+		loginButton.click();
+	}
+	
+	public void fillUserName(String user) {
+		if(user!=null && !user.isEmpty()) {
+			username.fill(user);	
+		}
+	}
+	
+	public void fillPassword(String pass) {
+		if(pass!=null && !pass.isEmpty()) {
+			password.fill(pass);	
+		}
+	}
 
 	public String getErrorText() {
 		return errorMessage.textContent();

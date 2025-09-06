@@ -5,8 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
   features = "src/test/resources/features",
-  glue = {"com.rvm.stepdefs", "com.rvm.context"},
-  plugin = {"pretty", "json:target/cucumber.json", "html:target/cucumber-html-report"},
+  glue = {"com.rvm.stepdefs"},
+  plugin = {"pretty", "json:target/cucumber.json", "html:target/cucumber-html-report.html"},
   monochrome = true
 )
 

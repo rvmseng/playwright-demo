@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Soha Test Suite" parallel="methods" thread-count="2">
 
-	<parameter name="cucumber.filter.tags" value="@happy" />
+	<parameter name="cucumber.filter.tags" value="@required_fields" />
 	
 	<test name="Login Tests">
 		<classes>

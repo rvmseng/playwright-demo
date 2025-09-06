@@ -1,9 +1,16 @@
 package com.rvm.stepdefs;
 
-import io.cucumber.java.en.*;
+import java.util.Map;
+
 import org.testng.Assert;
+
 import com.rvm.context.TestContext;
 import com.rvm.pages.LoginPage;
+
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class LoginSteps {
 	private final TestContext testContext;
@@ -22,6 +29,19 @@ public class LoginSteps {
 	@When("the user logs in with username {string} and password {string}")
 	public void the_user_logs_in_with_credentials(String username, String password) {
 		loginPage.performlogin(username, password);
+	}
+
+	@When("the user fills the form with:")
+	public void the_user_fills_the_form_with(DataTable table) {
+		Map<String, String> data = table.asMaps().get(0);
+
+		loginPage.fillUserName(data.get("username"));
+		loginPage.fillPassword(data.get("password"));
+	}
+
+	@When("click on login button")
+	public void click_on_login_button() {
+		loginPage.clickOnLoginButton();
 	}
 
 	@Then("the user should see the inventory page")
