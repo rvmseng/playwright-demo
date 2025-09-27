@@ -5,7 +5,7 @@
 	
 	<test name="Login Tests">
 		<classes>
-			<class name="com.rvm.runner.RunCucumberTest" />
+			<class name="com.demo.l5.runner.RunCucumberTest" />
 		</classes>
 	</test>
 </suite>

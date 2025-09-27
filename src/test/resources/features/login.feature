@@ -14,7 +14,7 @@ Feature: Login functionality
     When the user logs in with username "standard_user" and password "secret_sauce"
     Then the user should see the inventory page
 
-  @invalid
+  @invalid @debug
   Scenario Outline: Unsuccessful login with invalid credentials
     When the user logs in with username "<username>" and password "<password>"
     Then the user should see an error message containing "<message>"
