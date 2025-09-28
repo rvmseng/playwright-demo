@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Right Click Example</title>
+  <style>
+    #box {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      margin-top: 50px;
+      border: 2px solid #333;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Right Click Demo</h2>
+
+  <div id="box">Right Click Me!</div>
+
+  <p id="message"></p>
+
+  <script>
+    const box = document.getElementById("box");
+    const message = document.getElementById("message");
+
+    box.addEventListener("contextmenu", function(event) {
+      event.preventDefault(); // جلوگیری از منوی پیش‌فرض مرورگر
+      message.innerText = "Right click detected on the box!";
+    });
+  </script>
+</body>
+</html>

@@ -3,4 +3,4 @@
 npx playwright show-trace trace.zip
 
 # code gen command
-mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen https://demo.automationtesting.in/Frames.html"
+mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen https://filesamples.com/formats/csv"
